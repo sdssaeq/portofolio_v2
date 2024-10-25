@@ -4,13 +4,11 @@ const MagicButton = ({
   title,
   icon,
   position,
-  handleClick,
   otherClasses,
 }: {
   title: string;
   icon: ReactNode;
   position: string;
-  handleClick?: () => void;
   otherClasses?: string;
 }) => {
   return (
